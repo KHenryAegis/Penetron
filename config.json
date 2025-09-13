@@ -1,0 +1,134 @@
+{
+    "penetron_default": {
+        "type": "openai",
+        "name": "penetron",
+        "max_tokens": 4096
+    },
+    "penetron_0": {
+        "type": "openai",
+        "name": "penetron",
+        "temperature": 0,
+        "max_tokens": 4096
+    },
+    "gpt-oss-120b_0": {
+        "type": "openai",
+        "name": "openai-mirror/gpt-oss-120b",
+         "temperature": 0,
+        "max_tokens": 4096
+    },
+    "gpt-oss-120b_default": {
+        "type": "openai",
+        "name": "openai-mirror/gpt-oss-120b",
+        "max_tokens": 4096
+    },
+     "NL2SH_0": {
+        "type": "openai",
+        "name": "westenfelder/NL2SH:latest",
+        "temperature": 0,
+        "max_tokens": 4096
+    },
+    "NL2SH_default": {
+        "type": "openai",
+        "name": "westenfelder/NL2SH:latest",
+        "max_tokens": 4096
+    },
+      "Qwen2.5-7B-Instruct_0": {
+        "type": "openai",
+        "name": "Qwen2.5-7B-Instruct",
+        "temperature": 0,
+        "max_tokens": 4096
+    },
+    "Qwen2.5-7B-Instruct_Stage_default": {
+        "type": "openai",
+        "name": "Qwen2.5-7B-Instruct",
+        "max_tokens": 4096
+    },
+     "DeepSeek-R1-0528-Qwen3-8B_0": {
+        "type": "openai",
+        "name": "DeepSeek-R1-0528-Qwen3-8B",
+        "temperature": 0,
+        "max_tokens": 4096
+    },
+    "DeepSeek-R1-0528-Qwen3-8B_default": {
+        "type": "openai",
+        "name": "DeepSeek-R1-0528-Qwen3-8B",
+        "max_tokens": 4096
+    },
+     "Llama3.1-8B_0": {
+        "type": "openai",
+        "name": "Meta-Llama-3.1-8B-Instruct",
+        "temperature": 0,
+        "max_tokens": 4096
+    },
+    "Llama3.1-8B_default": {
+        "type": "openai",
+        "name": "Meta-Llama-3.1-8B-Instruct",
+        "max_tokens": 4096
+    },
+    "gemma3_0": {
+        "type": "openai",
+        "name": "gemma3:27b-it-fp16",
+         "temperature": 0,
+        "max_tokens": 4096
+    },
+    "gemma3_default": {
+        "type": "openai",
+        "name": "gemma3:27b-it-fp16",
+        "max_tokens": 4096
+    },
+    "mistral_0":{      
+        "type": "openai",
+        "name": "mistral-nemo:12b-instruct-2407-fp16",
+         "temperature": 0,
+        "max_tokens": 4096
+    },
+    "mistral_default": {
+        "type": "openai",
+        "name": "mistral-nemo:12b-instruct-2407-fp16",
+        "max_tokens": 4096
+    },
+     "Qwen3-32B_0": {
+        "type": "openai",
+        "name": "Qwen3-32B",
+         "temperature": 0,
+        "max_tokens": 4096
+    },
+    "Qwen3-32B_default": {
+        "type": "openai",
+        "name": "Qwen3-32B",
+        "max_tokens": 4096
+    },
+    "DeepSeekR1_0": {
+        "type": "openai",
+        "name": "deepseek-reasoner",
+         "temperature": 0,
+        "max_tokens": 4096
+    },
+    "DeepSeekR1_default": {
+        "type": "openai",
+        "name": "deepseek-reasoner",
+        "max_tokens": 4096
+    },
+    "qwen3-coder-480b-a35b-instruct_0": {
+        "type": "openai",
+        "name": "qwen3-coder-480b-a35b-instruct",
+         "temperature": 0,
+        "max_tokens": 4096
+    },
+    "qwen3-coder-480b-a35b-instruct_default": {
+        "type": "openai",
+        "name": "qwen3-coder-480b-a35b-instruct",
+        "max_tokens": 4096
+    },
+     "llama-4-maverick-17b-128e-instruct_0": {
+        "type": "openai",
+        "name": "llama-4-maverick-17b-128e-instruct-fp8",
+         "temperature": 0,
+        "max_tokens": 4096
+    },
+    "llama-4-maverick-17b-128e-instruct_default": {
+        "type": "openai",
+        "name": "llama-4-maverick-17b-128e-instruct-fp8",
+        "max_tokens": 4096
+    }
+}
