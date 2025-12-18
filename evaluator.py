@@ -47,16 +47,12 @@ class Config:
                 "type": "hf", "path": "westenfelder/NL2SH-ALFA", "subset": "test", 
                 "split": "train", "input_key": "nl", "answer_keys": ["bash", "bash2"]
             },
-            "qa_variant1": {
-                "type": "jsonl", "file_path": "qa_variant1.jsonl", 
+            "Implicit": {
+                "type": "jsonl", "file_path": "./data/NL2PEN-KALI_Implicit-Tool.jsonl", 
                 "input_key": "input", "answer_keys": ["output"]
             },
-            "qa_variant2": {
-                "type": "jsonl", "file_path": "qa_variant2.jsonl", 
-                "input_key": "input", "answer_keys": ["output"]
-            },
-            "qa_variant3": {
-                "type": "jsonl", "file_path": "qa_variant3.jsonl", 
+            "Explicit": {
+                "type": "jsonl", "file_path": "./data/NL2PEN-KALI_Explicit-Tool.jsonl", 
                 "input_key": "input", "answer_keys": ["output"]
             }
         }
@@ -381,7 +377,7 @@ def evaluate_single_dataset(dataset_name: str):
 
 def evaluate_all_qa_datasets():
     """评估所有QA数据集并生成总体性能报告 (逻辑不变)"""
-    qa_datasets = ["qa_variant1", "qa_variant2", "qa_variant3"]
+    qa_datasets = ["Implicit", "Explicit"]
     all_results, all_summaries = [], []
     
     for dataset_name in qa_datasets:
